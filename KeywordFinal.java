@@ -10,6 +10,7 @@ class Calculator
 }
 class AdvCalculator extends Calculator
 {
+    //can't overide a "final" function.
     @Override
     public final int sum(int a, int b)
     {
