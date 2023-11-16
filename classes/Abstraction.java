@@ -1,4 +1,3 @@
-package OOP.Java.classes;
 abstract class Mobile
 {
 	abstract void text();
@@ -13,7 +12,7 @@ class Oppo extends Mobile
 		System.out.println("----Texting----");
 	}
 
-	@overide
+	// @overide
 	void call()
 	{
 		System.out.println("----Calling----");
@@ -28,9 +27,9 @@ public class Abstraction
 		oppo.call();
 		oppo.text();
 
-		Mobile mobile = new Mobile() {
-			@Override
+		// Mobile mobile = new Mobile() {
+		// 	// @Override
 			
-		};
+		// };
 	}
 }

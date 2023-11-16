@@ -24,7 +24,7 @@ class Learner
 		return age;
 	}
 
-	public int setAge(int age)
+	public void setAge(int age)
 	{
 		this.age = age;
 	}
@@ -33,9 +33,9 @@ public class Student {
     public static void main(String[] args)
 	{
 		Learner learner = new Learner();
-		learner.age = 17;
-		learner.name = "mark";
+		learner.setAge(17);
+		learner.setName("mark");
 
-		System.out.println(learner.name + " " + learner.age  + ".");
+		System.out.println(learner.getName() + " " + learner.getAge()  + ".");
 	}
 }
